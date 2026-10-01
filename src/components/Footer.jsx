@@ -57,7 +57,7 @@ function Footer() {
           </a>
 
           <a href="tel:+94000000000">
-            +94 XX XXX XXXX
+            +94 71 316 1377
           </a>
         </div>
 
