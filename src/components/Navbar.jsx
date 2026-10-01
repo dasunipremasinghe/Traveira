@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/images/destinations/Traveira-logo.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,13 +12,16 @@ function Navbar() {
     <header className="navbar">
       <div className="container navbar-container">
 
-        <a href="#home" className="brand" onClick={handleNavClick}>
-          <div className="brand-icon">➤</div>
-
-          <div>
-            <span className="brand-name">Traveira</span>
-            <span className="brand-tagline">Explore. Experience. Remember.</span>
-          </div>
+        <a
+          href="#home"
+          className="brand"
+          onClick={handleNavClick}
+        >
+          <img
+            src={logo}
+            alt="Traveira"
+            className="brand-logo"
+          />
         </a>
 
         <nav className={menuOpen ? "nav-links active" : "nav-links"}>
