@@ -1,3 +1,5 @@
+import logo from "../assets/images/destinations/Traveira-logo-white.png";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -6,13 +8,13 @@ function Footer() {
 
         <div className="footer-brand">
 
-          <div className="brand footer-logo">
-            <div className="brand-icon">➤</div>
-
-            <div>
-              <span className="brand-name">Traveira</span>
-            </div>
-          </div>
+          <a href="#home" className="footer-logo-link">
+            <img
+              src={logo}
+              alt="Traveira"
+              className="footer-brand-logo"
+            />
+          </a>
 
           <p>
             Creating meaningful journeys across Sri Lanka through
@@ -29,28 +31,23 @@ function Footer() {
         </div>
 
         <div className="footer-column">
-
           <h4>Explore</h4>
 
           <a href="#home">Home</a>
           <a href="#tours">Tours</a>
           <a href="#destinations">Destinations</a>
           <a href="#experiences">Experiences</a>
-
         </div>
 
         <div className="footer-column">
-
           <h4>Company</h4>
 
           <a href="#about">About Traveira</a>
           <a href="#contact">Contact Us</a>
           <a href="#contact">Plan Your Trip</a>
-
         </div>
 
         <div className="footer-column">
-
           <h4>Contact</h4>
 
           <p>Sri Lanka</p>
@@ -62,7 +59,6 @@ function Footer() {
           <a href="tel:+94000000000">
             +94 XX XXX XXXX
           </a>
-
         </div>
 
       </div>
