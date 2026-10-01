@@ -56,8 +56,8 @@ function Footer() {
             hello@traveira.com
           </a>
 
-          <a href="tel:+94000000000">
-            +94 71 316 1377
+          <a href="tel:+94713161377">
+                +94 71 316 1377
           </a>
         </div>
 
